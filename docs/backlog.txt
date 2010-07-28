@@ -1,0 +1,51 @@
+Feature: Main Menu
+Description: Ability to Navigate to different parts of the app.
+Status:
+Point Value:
+Acceptance:
+	- A list of possible options
+	- Going to the option on a click
+
+Feature: SQLiteDatabase Setup
+Description: In order to store data for the app, I need somewhere to store it.
+Status:
+Point Value:
+Acceptance:
+	- A table where data points are stored and retrieved after a session has ended
+
+Feature: Retrieve and Store GPS Satellite information
+Description: Have the ability to retrieve and store satellite information for calculations
+Status:
+Point Value:
+Acceptance:
+	- Retrieve satellite information and store it
+	- Data remains stored after leaving the app
+	- Be able to run in the background
+
+Feature: Distance Calculator
+Description: Taking data from the table and be able to perform calculations.
+Status:
+Point Value:
+Acceptance: 
+	- Group data together based on criteria of time
+	- Take data points that are close together and calculate the relation
+
+Feature: View Map
+Description: See a map drawing of my travels based on entries in the database.
+Status:
+Point Value:
+Acceptance:
+	- A map of my current location
+	- Drawing leading up to that location (a layer of tracing)
+
+Feature: Distance Tracker Graph
+Description: A graph of the distance I have traveled based on the time. Also displays the average per day.
+Status:
+Point Value:
+Acceptance:
+	- Take the distance calculator and line graph the results based on day
+	- Display the line graph
+	- Summary of data under the graph with Overall Total and Average Daily
+
+
+
