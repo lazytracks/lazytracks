@@ -1,11 +1,3 @@
-Feature: Main Menu
-Description: Ability to Navigate to different parts of the app.
-Status:
-Point Value:
-Acceptance:
-	- A list of possible options
-	- Going to the option on a click
-
 Feature: SQLiteDatabase Setup
 Description: In order to store data for the app, I need somewhere to store it.
 Status:
@@ -37,6 +29,14 @@ Point Value:
 Acceptance:
 	- A map of my current location
 	- Drawing leading up to that location (a layer of tracing)
+
+Feature: Main Menu
+Description: Ability to Navigate to different parts of the app.
+Status:
+Point Value:
+Acceptance:
+	- A list of possible options
+	- Going to the option on a click
 
 Feature: Distance Tracker Graph
 Description: A graph of the distance I have traveled based on the time. Also displays the average per day.
